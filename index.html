@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Agnihotri</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cd7d3b5f9c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+         <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>Rahul</span> <br> Agnihotri From VIT</h1>
+            </div>
+         </div>
+    </div>
+    <!----------------------------about------------------>
+    <div id="about">
+        <div class="container">
+             <div class="row">
+                <div class="about-col-1">
+                    <img src="user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Rahul Agnihotri, a 22-year-old B.Tech student at VIT Vellore, specializing in Information and Technology. With a strong background in programming and problem-solving, I have two months of experience as a full stack developer. I'm passionate about technology, continuously learning, and staying up-to-date with the latest advancements. I strive to contribute my skills and knowledge to the field of IT.</p>
+                       <div class="tap-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                       </div>
+                       <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Designing web Application in MERN Stack <br> React , Mongo , Node , Express </li>
+                            <li><span>Data Structure</span><br>Good grab over data structures and algorithms</li>
+                            <li><span>Problem Solving</span><br>Frequent participation in competitive coding contest. <br> Good Understanding if Operating System, DBMS, Networking, System Design </li>
+
+                        </ul>
+                       </div>
+                       <div class="tab-contents " id="education">
+                        <ul>
+                            <li><span>B.tech</span><br>Information Technology VIT vellore<br>CGPA : 8.42  (2020-2024)</li>
+                            <li><span>Class 12th (CBSE)</span><br>RNS World School Jhansi Uttar Pradesh <br> Percentage : 89.8 %   (2019)</li>
+                            <li><span>High School (CBSE)</span><br>Sheerwood College Jhansi Uttar Pradesh <br> CGPA : 9.4  (2017) </li>
+                        </ul>
+                       </div>
+                       <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Software Development Intern </span><br>April 2023 - June 2023  Curaxo Healthcare LLP<br> Worked on frameworks like React,Node,MongoDB,Express</li>
+                            <li><span>Microsoft Security, Compliance, and Identity (SC-900)</span><br>Demonstrated proficiency in implementing security controls, managing compliance, and protecting identities<br>Date Issued : June 12, 2023</li>
+                            <li><span>Walmart Advanced Software Engineering Virtual Experience Program</span><br>Completed practical tasks in:
+                                Advanced Data Structures, Software Architecture, Relational Database Design, Data Mungin <br>Over the period of June 2023</li>
+                                <li><span>Goldman Sachs Software Engineering Virtual Experience Program</span><br>
+                                    completed practical tasks in: Crack leaked password database<br>Over the period of May 2023 - June 2023 </li>
+                        </ul>
+                       </div>
+                </div>
+             </div>
+        </div>
+    </div>
+    <!---------------------------------------------------Projects------------------------------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>Enhanced GPT</h3>
+                        <p>Introducing the versatile chat GPT clone with a groundbreaking feature: choose 
+                            the model for results and set a Risk factor to unlock fresh ideas and explore new horizons. </p>
+                        <a href="https://github.com/RahulAgnihotri2001/Enhanced-GPT/tree/master"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>Appointment Management App</h3>
+                        <p>A multifunctionl Appointment System created using MERN Stack </p>
+                        <a href="https://github.com/RahulAgnihotri2001/Doctor-Appointment-System"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!------------------------------contact--------------------------------->
+    <div id="contact">
+        <div class="contaner">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>rahulagnihotri4444@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone"></i>6306496375</p>
+                    <div class="social-icon">
+                        <a href="https://leetcode.com/Rahul_Agnihotri4444"><i class="fa-solid fa-l"></i></a>
+                        <a href="https://www.linkedin.com/in/rahul-agnihotri-32a0a3248/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/rahul_.agnihotri/" class="insta"><i class="fa-brands fa-square-instagram"></i></a>
+                        
+                    </div>
+                    <a href="https://drive.google.com/file/d/1DDz3QqpgSOi3rZPPCAwp5IMn5fm5xCRh/view?usp=sharing" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2"> Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright <i class="fa-solid fa-copyright"></i> Rahul</p>
+        </div>
+    </div>
+    <script>
+
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu=documnt.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzeTccv0gmeY4mtEI23OzM_f6rOcE9I3lOtt7KGMTBVeCi2ADaBzRLFscpNhP3O-qTCBQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent sucessfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      
+</body>
+</html>
